@@ -1,0 +1,2 @@
+with open("text.txt", "w") as my_file:
+    my_file.write('"Nossas duvidas sao traidoras e nos fazem perder o que, com frequencia, poderiamos ganhar, por simples medo de arriscar. (William Shakespeare)"')
