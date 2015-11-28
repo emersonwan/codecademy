@@ -3,12 +3,12 @@
 
 # Para rodar no computador, escrevi um código para gerar o arquivo text.txt
 my_list = [
-"I'm the first line of the file",
+"I'm the first line of the file.",
 "I'm the second line.",
 "Third line here, boss."
 ]
 
-f = open("text.txt", "w")
+f = open("text.txt", "w") # Cria arquivo text.txt modo escrita
 
 for item in my_list:
     f.write(str(item) + "\n")
@@ -16,8 +16,8 @@ for item in my_list:
 f.close()
 
 # O código do exercício começa aqui
-my_file = open("text.txt", "r")
-print my_file.readline()
-print my_file.readline()
-print my_file.readline()
+my_file = open("text.txt", "r") # Abre arquivo text.txt modo leitura
+print my_file.readline() # Imprime primeira linha de my_file
+print my_file.readline() # Imprime linha seguinte
+print my_file.readline() # Imprime linha seguinte
 my_file.close()
