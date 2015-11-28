@@ -1,0 +1,10 @@
+def digit_sum(n):
+    str_n = str(n) # Transforma o numero numa string
+    int_list = [] # Cria uma lista
+    for c in str_n:
+        int_list.append(int(c))
+    print int_list
+    list_sum = sum(int_list)
+    return list_sum
+
+print digit_sum(5678)
