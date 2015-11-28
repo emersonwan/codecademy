@@ -1,0 +1,10 @@
+""" Exemplo
+str = "ABCDEFGHIJ"
+start, end, stride = 1, 6, 2
+print str[start:end:stride]
+"""
+
+garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
+print garbled[::-1]
+message = garbled[::-2]
+print message
