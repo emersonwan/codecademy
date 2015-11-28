@@ -1,0 +1,13 @@
+def factorial(x):
+    num = []
+    total = x
+    while x > 1:
+        num.append(x-1)
+        x -= 1
+    print total, num
+    
+    for digit in num:
+        total = total * digit
+    return total
+
+print factorial(5)
