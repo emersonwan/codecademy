@@ -1,0 +1,10 @@
+def is_int(x):
+    if x % 1 == 0:
+        return True
+    else:
+        return False
+
+for i in range(3):
+    num = float(raw_input("Entre um numero"))
+    print is_int(num)
+    print num % 1
