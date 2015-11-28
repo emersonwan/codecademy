@@ -1,0 +1,9 @@
+def reverse(text):
+    string = ""
+    for c in text:
+        string = c + string # string = c + string faz c ser adicionado no início de string,
+        # enquanto string= string + c faz c ser adicionado no fim de string
+    return string
+
+print reverse("abcd")
+print reverse("Pithon!")
