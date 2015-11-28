@@ -1,0 +1,9 @@
+def remove_duplicates(sequence):
+    newlist = []
+    for digit in sequence:
+        if digit not in newlist:
+            newlist.append(digit)
+    return newlist
+
+print remove_duplicates([1,1,2,2])
+print remove_duplicates([1,2,3,3,4,4,5,5,5,6,6,6,6])
