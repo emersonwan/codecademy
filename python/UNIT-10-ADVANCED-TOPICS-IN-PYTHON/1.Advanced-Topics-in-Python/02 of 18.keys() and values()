@@ -1,0 +1,9 @@
+# Tuples: A Python data type that holds an ordered collection of values, which can be of any type. Python tuples are "immutable," meaning that they cannot be changed once created.
+my_dict = {
+    "Name": "Emerson",
+    "Age" : 43,
+    "CFP" : True
+    }
+
+print my_dict.keys()
+print my_dict.values()
