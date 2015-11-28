@@ -1,0 +1,7 @@
+my_dict = {
+    "Name": "Emerson",
+    "Age" : 43,
+    "CFP" : True
+    }
+
+print my_dict.items()
