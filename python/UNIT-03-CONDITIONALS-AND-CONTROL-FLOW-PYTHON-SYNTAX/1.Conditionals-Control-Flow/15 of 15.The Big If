@@ -1,0 +1,14 @@
+# Make sure that the_flying_circus() returns True
+def the_flying_circus():
+    if 10 > 9 and 6 > 5:    # Start coding here!
+        # Don't forget to indent
+        # the code inside this block!
+        return True
+    elif 15 + 4 == 19:
+        # Keep going here.
+        # You'll want to add the else statement, too!
+        return False
+    else:
+        return False
+
+the_flying_circus()
