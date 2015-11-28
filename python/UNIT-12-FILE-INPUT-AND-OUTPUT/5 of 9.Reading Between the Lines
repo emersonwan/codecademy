@@ -1,4 +1,21 @@
+# No Codecademy, há um bug.
 # Vá ao text.txt e apague o símbolo "!" da primeira linha 
+
+# Para rodar no computador, escrevi um código para gerar o arquivo text.txt
+my_list = [
+"I'm the first line of the file",
+"I'm the second line.",
+"Third line here, boss."
+]
+
+f = open("text.txt", "w")
+
+for item in my_list:
+    f.write(str(item) + "\n")
+
+f.close()
+
+# O código do exercício começa aqui
 my_file = open("text.txt", "r")
 print my_file.readline()
 print my_file.readline()
