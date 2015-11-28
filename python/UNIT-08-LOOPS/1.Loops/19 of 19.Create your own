@@ -1,0 +1,13 @@
+list_a = [6, 11, 12, 21, 38, 41] # Seus números da mega-sena
+list_b = [6, 11, 16, 23, 36, 42] # Resultado da mega-sena
+
+count = 0
+for a, b in zip(list_a, list_b):
+    # Add your code here!
+    if a == b:
+        print "Acertou o numero", a
+        count += 1
+    else:
+        print "Azar. Nao acertou o numero"
+
+print "Voce acertou", count, "numeros"
