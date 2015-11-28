@@ -1,1 +1,3 @@
 my_file = open("output.txt", "r+")
+# Abre o aquivo output.txt e coloca na variável my_file
+# mas nada é impresso
