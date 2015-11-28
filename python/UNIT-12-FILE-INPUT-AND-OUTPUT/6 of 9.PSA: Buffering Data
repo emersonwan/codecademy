@@ -1,13 +1,15 @@
+# O programa abre o arquivo text.txt, apaga seu conteúdo e escreve "Not closing files is VERY BAD."
+
 # Open the file for reading
-read_file = open("text.txt", "r")
+read_file = open("text.txt", "r") # Abre read_file no modo leitura
 
 # Use a second file handler to open the file for writing
-write_file = open("text.txt", "w")
+write_file = open("text.txt", "w") # Abre write_file no modo escrita
 # Write to the file
-write_file.write("Not closing files is VERY BAD.")
+write_file.write("Not closing files is VERY BAD.") # Escreve no arquivo text.txt
 
-write_file.close()
+write_file.close() # Fecha write_file
 
 # Try to read from the file
-print read_file.read()
-read_file.close()
+print read_file.read() # Imprime read_file()
+read_file.close() # Fecha read_file # Fecha read_file
