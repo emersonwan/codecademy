@@ -1,0 +1,5 @@
+def hotel_cost(nights):
+    return nights * 140
+
+print hotel_cost(1)
+print hotel_cost(2)
