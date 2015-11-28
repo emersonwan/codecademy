@@ -1,0 +1,7 @@
+def censor(text, word):
+    if word in text:
+        text = text.replace(word, "*" * len(word))
+    return text
+
+print censor("this hack is wack hack", "hack")
+print censor("On Windows, you'll get a few more items", "Windows")
