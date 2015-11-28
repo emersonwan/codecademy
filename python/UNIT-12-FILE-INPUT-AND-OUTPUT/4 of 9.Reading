@@ -1,3 +1,3 @@
-my_file = open("output.txt", "r")
-print my_file.read()
-my_file.close()
+my_file = open("output.txt", "r") # Abre o aquivo output.txt e coloca na variável my_file
+print my_file.read() # Imprime o conteúdo de my_file, que é o arquivo output.txt
+my_file.close() # Fecha o arquivo output.txt
