@@ -1,0 +1,8 @@
+def purify(sequence):
+    newlist = [] # Esta e uma lista
+    for i in sequence:
+        if i % 2 == 0:
+            newlist.append(i)
+    return newlist
+
+print purify([1,2,3,4,5,6])
