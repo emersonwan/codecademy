@@ -1,0 +1,4 @@
+# Exemplo
+# print bin(0b0111 & 0b1010) # Vai dar 0b0010
+
+print bin(0b1110 & 0b0101) # O resultado é 0b0100
