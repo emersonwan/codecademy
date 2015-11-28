@@ -1,0 +1,13 @@
+def median(sequence):
+    newlist = sorted(sequence)
+    print newlist
+    if len(newlist) % 2 == 1:
+        return newlist[len(newlist) / 2]
+    else:
+        return (newlist[len(newlist) / 2 - 1] + newlist[len(newlist) / 2]) / 2.0
+        
+print median([11])
+print median([7, 12, 3, 1, 6])
+print median([7, 3, 1, 4])
+print median([5, 2, 3, 1, 4])
+print median([1, 1, 2])
