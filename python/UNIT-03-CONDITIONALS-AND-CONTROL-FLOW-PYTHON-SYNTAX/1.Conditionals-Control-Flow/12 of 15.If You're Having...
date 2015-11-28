@@ -1,0 +1,10 @@
+def using_control_once():
+    if 13 < 15 and 9 > 5:
+        return "Success #1"
+
+def using_control_again():
+    if "Dog" != "Cat":
+        return "Success #2"
+
+print using_control_once()
+print using_control_again()
