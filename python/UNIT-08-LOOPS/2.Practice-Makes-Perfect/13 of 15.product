@@ -1,0 +1,8 @@
+def product(sequence):
+    int_product = 1
+    for digit in sequence:
+        int_product *= digit # E igual a int_product = int_product * digit
+    return int_product
+
+print product([4,5,5])
+print product([2,3,4])
